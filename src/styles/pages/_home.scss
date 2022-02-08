@@ -50,7 +50,7 @@
 .banner-flight {
   border-radius: 0px 40px 40px 40px;
   background-color: #fff;
-  padding: 20px 60px;
+  padding: 20px 85px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -58,7 +58,7 @@
   .banner-flight-searchicon i {
     color: #fff;
     padding: 45px;
-    font-size: 45px;
+    font-size: 40px;
     background: #3d86f5;
     border-radius: 40px;
     border: none;
@@ -283,3 +283,83 @@
   }
 }
 
+
+
+@media(max-width:768px){
+  .bg-section .banner-tab {
+    position: absolute;
+    top: 130%;
+}
+.special-offer {
+  padding-top: 720px;
+  text-align: center;
+}
+.text-rotatae {
+  position: absolute;
+  transform: rotate(450deg);
+  left: 230px;
+  bottom: 334px;
+  width: 100%;
+  letter-spacing: 4px;
+  font-size: 20px;
+  color: #8891B2;
+}
+.travelanycorner .touristtravel1 {
+  position: absolute;
+  top: 525%;
+  left: 4%;
+}
+.travelanycorner .touristtravel3 {
+  position: absolute;
+  top: 549%;
+  left: 73%;
+}
+.travelanycorner .touristtravel2 {
+  position: absolute;
+  top: 497%;
+  left: 73%;
+}
+.slick-next{
+  left: 54%;
+}
+}
+
+@media(max-width:380px){
+  .banner-flight{
+    padding: 20px;
+  }
+  .travelanycorner .touristtravel2 {
+    position: absolute;
+    top: 539%;
+    left: 47%;
+}
+.travelanycorner .touristtravel1 {
+  position: absolute;
+  top: 565%;
+  left: 4%;
+}
+.travelanycorner .touristtravel3 {
+  position: absolute;
+  top: 592%;
+  left: 47%;
+}
+.text-rotatae{
+  bottom: 297px;
+  left: 120px;
+}
+.banner-img .banner-caption{
+  margin-top: 45px;
+}
+.bg-section .banner-tab .nav-link.active {
+  color: #112031 !important;
+  background-color: #f2f6ff !important;
+  border-radius: 15px;
+  padding: 15px 20px;
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+.slick-next{
+  left: 60%;
+}
+}
