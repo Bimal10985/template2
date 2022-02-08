@@ -1,0 +1,56 @@
+.specialoffercard-bg{
+    background-color: #fff;
+    padding: 20px 55px 20px 20px;
+    border-radius: 40px;
+    position: relative;
+     img{
+         border-radius: 40px;
+         margin-bottom: 20px;
+     }
+     .span-bg{
+        font-size: 14px;
+        background: #F2F6FF;
+        color: $primary-color;
+        border-radius: 30px;
+        padding: 10px 15px;
+        margin-right: 50px;
+
+    }
+    .span-duration{
+        font-size: 14px;
+        color: $text-color;
+    }
+    h2{
+        color: $black-color;
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: 30px;
+        text-align: left;
+        margin-left: 15px;
+    }
+    h4{
+        color: $black-color;
+        font-weight: 700;
+        font-size:22px;
+        margin-top: 10px;
+        text-align: left;
+        margin-left: 15px;
+        sub{
+            color: $text-color;
+            bottom: 0 !important;
+        }
+    }
+    .offer-card-btn{
+        @include btn($primary-color,#F2F6FF,15px);
+    }
+}
+.text-rotatae{
+    position: absolute;
+    transform: rotate(450deg);
+    left: 150px;
+    bottom: 264px;
+    width: 100%;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: $text-color;
+}

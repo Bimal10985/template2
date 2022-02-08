@@ -1,0 +1,19 @@
+.navBar{
+    padding-top: 30px !important;
+    .navbar-brand{
+        font-size: 25px;
+        color: #fff !important;
+        font-weight: 500;
+    }
+    .nav-item{
+        color: #fff !important;
+        font-size: 16px;
+        margin-right:40px;
+    }
+    .btn-style{
+        @include btn($primary-color,#fff,17px);
+        &:hover{
+            color: $primary-color;
+        }
+    }
+}

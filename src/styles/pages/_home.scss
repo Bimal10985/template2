@@ -1,0 +1,285 @@
+.banner-img {
+  background-image: url("../../assets/images/banner.jpg");
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+  position: relative;
+  .banner-caption {
+    text-align: center;
+    margin-top: 140px;
+
+    h1 {
+      font-size: 45px !important;
+      color: #fff;
+      font-weight: 700;
+    }
+    p {
+      color: #fff;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+  }
+}
+.bg-section {
+  background-color: #f7f7f7;
+  .banner-tab {
+    position: absolute;
+    top: 74%;
+
+    .nav-tabs {
+      border-radius: 25px 25px 0px 0 !important;
+      margin: 0;
+      width: 30% !important;
+      border-radius: 15px;
+      border: none !important;
+      padding: 15px 15px;
+      font-size: 18px;
+      .nav-item {
+        margin-right: 30px;
+      }
+    }
+    .nav-link.active {
+      color: $black-color !important;
+      background-color: #f2f6ff !important;
+      border-radius: 15px;
+      padding: 15px 45px;
+      font-size: 18px;
+    }
+  }
+}
+.banner-flight {
+  border-radius: 0px 40px 40px 40px;
+  background-color: #fff;
+  padding: 20px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  .banner-flight-searchicon i {
+    color: #fff;
+    padding: 45px;
+    font-size: 45px;
+    background: #3d86f5;
+    border-radius: 40px;
+    border: none;
+  }
+}
+.special-offer {
+  padding-top: 180px;
+  text-align: center;
+  h1 {
+    font-size: 35px !important;
+    font-weight: 700;
+    color: $black-color;
+    letter-spacing: 1px;
+  }
+}
+
+.travelanycorner {
+  .travelanycorner-figure {
+    position: relative;
+    img {
+      width: 100%;
+      height: 450px;
+      border-radius: 50px;
+      object-fit: cover;
+    }
+  }
+  .touristtravel1 {
+    position: absolute;
+    top: 256%;
+    left: 4%;
+  }
+  .touristtravel2 {
+    position: absolute;
+    top: 237%;
+    left: 36%;
+  }
+  .touristtravel3 {
+    position: absolute;
+    top: 276%;
+    left: 36%;
+  }
+  .travelanycorner-content {
+    margin-top: 70px;
+    h1 {
+      font-size: 35px !important;
+      font-weight: 700;
+      line-height: 40px;
+    }
+    p {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      line-height: 28px;
+      font-size: 14px;
+      text-align: justify;
+      color: $text-color;
+    }
+    .travelanycorner-btn {
+      @include btn(#fff, $primary-color, 16px);
+    }
+  }
+}
+
+.recommendation-destination {
+  .recommendation-destionation-heading {
+    text-align: center;
+    h2 {
+      font-size: 38px;
+      font-weight: 700;
+      color: $black-color;
+    }
+  }
+  .nav-tabs {
+    width: 35%;
+    background: none;
+    margin-bottom: 50px;
+    margin-top: 40px;
+
+    .nav-link.active {
+      color: $primary-color !important;
+      background-color: #fff !important;
+      border-radius: 15px;
+      padding: 5px 20px;
+    }
+  }
+}
+
+.travellers-testimonials {
+  .travellers-testimonials-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2 {
+      font-size: 38px;
+      font-weight: 700;
+      color: $black-color;
+    }
+    .testimonial-btn {
+      @include btn(#fff, $primary-color, 15px);
+    }
+  }
+}
+
+.testimonial-slider-wrapper {
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 30px 40px;
+  text-align: center;
+  margin-top: 40px;
+  position: relative;
+
+  h4 {
+    color: $black-color;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    margin-bottom: 15px;
+    margin-top: 35px;
+  }
+  h2 {
+    color: $primary-color;
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  p {
+    color: $text-color;
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .testimonial-img-wrapper {
+    position: absolute;
+    top: 210px;
+    left: 240px;
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: inline;
+      margin-top: 30px;
+    }
+  }
+}
+.col-align {
+  width: 97% !important;
+}
+.slick-dots {
+  display: none !important;
+}
+.slick-next {
+  position: absolute;
+  top: 115%;
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  border: 1px solid $text-color !important;
+  border-radius: 10px;
+  left: 51%;
+  border: none;
+  &:hover {
+    background-color: none;
+  }
+  &::before {
+    color: $primary-color !important ;
+  }
+}
+.slick-prev {
+  position: absolute;
+  top: 115%;
+  width: 35px;
+  height: 35px;
+  background-color: $primary-color;
+  border-radius: 10px;
+  left: 45%;
+  border: none;
+  &:hover {
+    color: #fff;
+    background-color: $primary-color;
+  }
+}
+.testimonial-quote i {
+  font-size: 42px;
+  color: $primary-color;
+}
+.testimonial-quote {
+  top: 4%;
+  position: absolute;
+  left: 45%;
+}
+
+.map-bg {
+  background-image: url("../../assets/images/dottedmap.jpg");
+  border-radius: 50px;
+  height: 400px;
+  width: 100%;
+  position: relative;
+  margin-top: 70px;
+  text-align: center;
+
+  h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px !important;
+    margin-bottom: 50px;
+  }
+  .map-btn {
+    @include btn($primary-color, #fff, 16px);
+  }
+}
+.footer {
+  padding: 50px;
+  .navBar {
+    .navbar-brand {
+      color: $primary-color !important;
+      font-size: 15px;
+    }
+    .nav-item {
+      color: #000 !important;
+      font-size: 15px;
+      font-weight: 600;
+    }
+  }
+}
+

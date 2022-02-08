@@ -1,0 +1,55 @@
+.recdestination-bg {
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 15px 15px 25px 15px;
+  
+  position: relative;
+  
+  img {
+    border-radius: 40px;
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 23px !important;
+    text-align: left;
+    margin-left: 12px;
+    margin-top: 35px;
+  }
+  p {
+    text-align: left;
+    margin-left: 12px;
+    i {
+      font-size: 18px;
+      color: #ff7c7b;
+    }
+    span {
+      margin-left: 12px;
+      font-size: 16px;
+      color: $text-color;
+    }
+  }
+  
+}
+.recdestination-rating{
+    background-color: #fff;
+    padding: 7px 10px;
+    border-radius: 40px;
+    position: absolute;
+    top: 8%;
+    left: 65%;
+    .rating-para{
+        margin-bottom: 0;
+        font-size: 14px;
+        i{
+            color: #FFCC00;
+            margin-right: 5px;
+        }
+        span{
+            color: $black-color;
+            font-weight: bold;
+        }
+    }
+}

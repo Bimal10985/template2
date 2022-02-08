@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav-tabs{
+    background: #fff;
+    width: 30%;
+    border-radius: 15px;
+    margin: 0 auto;
+    border: none !important;
+    padding:5px 15px;
+    
+    .nav-link.active {
+        color: #fff !important;
+        background-color: $primary-color !important;
+        border-radius: 15px;
+        padding: 5px 15px;
+      
+    }
+    .nav-link {
+        background-color: #fff;
+        border: none !important;
+        font-size: 20px;
+        color: $text-color;
+        font-weight: 500;
+       
+    }
+    
+}
