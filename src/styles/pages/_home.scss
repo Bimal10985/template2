@@ -189,9 +189,9 @@
     margin-bottom: 0;
   }
   .testimonial-img-wrapper {
-    position: absolute;
-    top: 210px;
-    left: 240px;
+    // position: absolute;
+    // top: 210px;
+    // left: 240px;
     img {
       width: 50px;
       height: 50px;
@@ -213,16 +213,16 @@
   top: 115%;
   width: 35px;
   height: 35px;
-  background-color: transparent;
-  border: 1px solid $text-color !important;
+  background-color: $primary-color;
   border-radius: 10px;
+  color: #fff;
   left: 51%;
   border: none;
   &:hover {
     background-color: none;
   }
   &::before {
-    color: $primary-color !important ;
+    color: #fff ;
   }
 }
 .slick-prev {
@@ -288,7 +288,7 @@
 @media(max-width:768px){
   .bg-section .banner-tab {
     position: absolute;
-    top: 130%;
+    top: 95%;
 }
 .special-offer {
   padding-top: 720px;
@@ -322,33 +322,64 @@
 .slick-next{
   left: 54%;
 }
+.flightcard{
+  margin-bottom: 20px;
+}
+.banner-flight .banner-flight-searchicon i {
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+  background: #3d86f5;
+  border-radius: 15px;
+  border: none;
+}
+.specialoffercard-bg,.recdestination-bg{
+  margin-bottom: 20px;
+}
+.travellers-testimonials .travellers-testimonials-heading h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #112031;
+}
+.map-bg h2 {
+  font-size: 30px !important;
+}
+.banner-img .banner-caption h1{
+  font-size: 40px !important;
+}
+.banner-img {
+  height: 500px;
+}
+.nav-item{
+  margin-left: 10px;
+}
 }
 
-@media(max-width:380px){
+@media(max-width:480px){
   .banner-flight{
     padding: 20px;
   }
   .travelanycorner .touristtravel2 {
     position: absolute;
-    top: 539%;
-    left: 47%;
+    top: 502%;
+    left: 58%;
 }
 .travelanycorner .touristtravel1 {
   position: absolute;
-  top: 565%;
-  left: 4%;
+  top: 532%;
+  left: 3%;
 }
 .travelanycorner .touristtravel3 {
   position: absolute;
-  top: 592%;
-  left: 47%;
+  top: 570%;
+  left: 55%;
 }
-.text-rotatae{
-  bottom: 297px;
-  left: 120px;
+.text-rotatae {
+  bottom: 267px;
+  left: 145px;
 }
 .banner-img .banner-caption{
-  margin-top: 45px;
+  margin-top: 80px;
 }
 .bg-section .banner-tab .nav-link.active {
   color: #112031 !important;
@@ -360,6 +391,10 @@
 }
 
 .slick-next{
-  left: 60%;
+  left: 50%;
+}
+.slick-prev{
+  left: 37%;
 }
 }
+
